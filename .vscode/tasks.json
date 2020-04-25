@@ -10,9 +10,9 @@
                 "-stdlib=libc++",
                 "-Wall",
                 "-g",
-                "*.cpp",
+                "./src/*.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "./build/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
