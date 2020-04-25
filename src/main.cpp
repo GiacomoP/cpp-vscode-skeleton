@@ -1,3 +1,4 @@
+#include "myfun.h"
 #include <iostream>
 #include <vector>
 #include <string>
@@ -10,6 +11,6 @@ int main()
     {
         std::cout << word << " ";
     }
-    std::cout << std::endl;
+    std::cout << myFunction(3) << std::endl;
     return 0;
 }
